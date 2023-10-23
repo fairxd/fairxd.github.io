@@ -113,3 +113,34 @@
 ## 4. 기술
 
 Unity 엔진을 사용해 PC 환경의 3D MMORPG 게임을 만들고자 합니다. 플레이어는 키보드와 마우스로 게임을 조작해야 합니다. 에셋 스토어에서 제가 구상하고 있는 그래픽과 최대한 어울리는 에셋들을 선정해 그래픽적으로 일관성이 있는 가진 게임을 개발하려고 노력하고자 합니다.
+
+# [게임시스템디자인]
+
+## 1. 게임 오브젝트 분해
+
+
+| 연번 | 종류 | Obj 이름 | Obj 영문명 | 사용처 | 오브젝트 이미지 |
+|------|------|----------|------------|--------|-----------------|
+| 1 |플레이어 캐릭터 |마법사 |Wizard |공통 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/480f7c0f-b816-4fa0-846a-a3a670cdd759) |
+| 2 |플레이어 캐릭터 |전사 | Warrior|공통 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/196534c1-b0d8-43fd-b89f-2cce4c63bd44) |
+| 3 | 플레이어 캐릭터|치유사 | Healer|공통 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/2dee6fae-a7cc-4504-8905-6e7e150f84c9) |
+| 4 | 플레이어 캐릭터|수호자 |Tanker |공통 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/562c5c9a-5247-40f5-a1a7-4e4a817e17ca) |
+| 5 |몬스터 |곰 |Bear |야생 필드 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/d5e88614-2092-460b-bd46-a297d8af32f7) |
+| 6 |몬스터 |나무 | Wood Monster|야생 필드 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/d7530a30-d58e-4fc5-a423-672d973b026f)|
+| 7 |몬스터 |남자 악마 |Demon Male |악마(으스스한) 필드 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/e8ba5da9-482f-4acf-bc30-b00ec87c06d7) |
+| 8 |몬스터 |여자 악마 |Demon Female |악마(으스스한) 필드 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/a28a7ea5-05bb-415c-a785-08664fb508c3) |
+| 9 |몬스터 |악마새(공중) |Demon Bird |악마(으스스한) 필드 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/59b24fba-16eb-433e-be63-84bc5ef44b0b) |
+| 10 |몬스터 |용 |Dragon |언덕 필드 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/1b4b455e-0a9b-403a-b5a7-8b04aa84afd1) |
+| 11 |몬스터 |벌레 |Insects |야생 필드, 언덕 필드 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/83297fb6-359f-471c-8813-4737b267df80) |
+| 12 | 몬스터 전리품|경험치 구슬 |Experience Point Item |공통 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/4ce22cc3-06e3-4b6b-b477-bac20b445d06) |
+| 13 | 몬스터 전리품 (재화)|골드 |Gold |공통 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/9607d9d6-0a5a-4019-9c1a-887ec1c91976) |
+| 14 | 플레이어 아이템|완드 |Wand |마법사 무기 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/279f4a26-d7e6-494f-8804-056123a45bf6) |
+| 15 | 플레이어 아이템|대검 |Big Sword |전사 무기 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/840bb1ed-71fb-467f-9021-d2f57b3e04e1) |
+| 16 | 플레이어 아이템|스태프 |Staff |치유사 무기 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/af0eeded-6e3a-498b-be1a-662442ed1d9c) |
+| 17 | 플레이어 아이템|검과 방패 |Sword and Shield |수호자 무기 |![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/5f4d1bb9-cd14-4027-8a24-c8655c3d61f1) |
+
+
+
+
+
+
