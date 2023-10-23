@@ -319,6 +319,8 @@ Unity 엔진을 사용해 PC 환경의 3D MMORPG 게임을 만들고자 합니�
 
 
 ![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/9867799c-8aa1-483e-83f1-38130c2c5151)
+
+
 5) 일정 수준으로 플레이어가 성장 시 세력전에 참여해보라는 UI 팝업 (세력전 참여 유도) ↑
 
    
