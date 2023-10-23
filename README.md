@@ -315,7 +315,7 @@ Unity 엔진을 사용해 PC 환경의 3D MMORPG 게임을 만들고자 합니�
 3) 스킬 설명 UI를 닫을 시 몬스터 사냥 도움 UI 팝업 ↑
 ![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/f397eb01-1fe1-4579-a78c-0f4a6f17e428)
 4) 몬스터를 사냥해가며 성장 ↑
-![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/3d548bae-14c2-4868-a514-12412e098097)
+![image](https://github.com/fairxd/fairxd.github.io/assets/147012170/9867799c-8aa1-483e-83f1-38130c2c5151)
 5) 일정 수준으로 플레이어가 성장 시 세력전에 참여해보라는 UI 팝업 (세력전 참여 유도) ↑
 
    
